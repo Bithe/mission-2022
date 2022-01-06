@@ -98,7 +98,7 @@
     }
     
     .experience-summary {
-        width: 80%;
+        width: 50%;
         padding: 60px;
         margin: 30px;
         text-align: justify;
@@ -159,7 +159,7 @@
     }
     
     .message-form {
-        background-image: url(../images/form/side-bg.jpg);
+        background-image: url(../images/form/sidebar-bg.jpg);
         background-repeat: no-repeat;
         background-position: left;
         width: 50%;
@@ -183,7 +183,7 @@
     
     .follow img {
         padding: 10px;
-        margin-top: 30px;
+        margin-top: 2 0px;
         width: 350px;
     }
     
@@ -198,7 +198,7 @@
     }
     
     .follow-me-img:hover {
-        background-image: linear-gradient(180deg, #29524a, #e9bcb7);
+        background-image: linear-gradient(180deg, #5996a8, #e9bcb7);
         border-radius: 20px;
     }
     /*  */
