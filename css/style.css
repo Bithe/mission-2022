@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+    width: 90%;
+}
+
+.paragraph {
+    text-align: justify;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'DM Serif Display', serif;
+    font-size: 35px;
+    border-left: 3px solid #ff5959;
+    border-radius: 1px;
+    border-image-slice: 1;
+    padding: 0px 8px;
+    margin-top: 0px;
+}
+
+.text-color {
+    color: #0099e6
+}
+
+.card {
+    padding: 20px 90px;
+    margin: 20px;
+}
+
+.resume-btn {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ff5959;
+    color: white;
+    border-radius: 5px;
+}
+
+#profile-image img {
+    width: 300px;
+}
+
+
+/* second section */
+
+h2 {
+    text-align: center;
+}
+
+.missions {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+}
+
+.sub-mission {
+    /* border-radius: 15px;
+    text-align: justify;
+    /* padding: 20px 20px;
+    margin: 10px 40px; */
+    border-radius: 15px;
+    width: 250px;
+    padding: 20px;
+}
+
+.sub-mission img {
+    width: 100px;
+}
+
+.background-blue-light {
+    background-color: #edf5f6;
+}
+
+.background-violate-light {
+    background-color: #ffeeee;
+}
+
+.background-golden-light {
+    background-color: #fff4d6;
+}
+
+
+/*  */
+
+.experience-projects {
+    display: flex;
+}
+
+.experience-image {
+    width: 20%;
+    padding: 60px;
+    margin: 30px;
+}
+
+.experience-summary {
+    width: 80%;
+    padding: 60px;
+    margin: 30px;
+    text-align: justify;
+}
+
+.resume-btn {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ff5959;
+    color: white;
+    border-radius: 5px;
+}
+
+.experience-image img {
+    width: 300px;
+}
+
+
+/*  */
+
+.projects-plan {
+    display: flex;
+}
+
+.projects-plan-card {
+    width: 70%;
+    padding: 20px 40px 20px 90px;
+    margin: 10px;
+}
+
+.projects-plan-image {
+    width: 30%;
+    padding: 5px 90px 5px 40px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.resume-btn {
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ff5959;
+    color: white;
+    border-radius: 5px;
+}
+
+.projects-plan img {
+    width: 300px;
+}
+
+
+/*  */
+
+.follow {
+    display: flex;
+}
+
+.follow-me {
+    width: 50%;
+    padding: 20px 20px 20px 80px;
+    margin: 20px;
+}
+
+.message-form {
+    background-image: url(../images/form/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50%;
+    background-color: #fff;
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg, rgb(62, 177, 230), rgb(4, 56, 134), rgb(0, 77, 128), rgb(0, 153, 255));
+    border-image-slice: 1;
+}
+
+.form-inputs {
+    padding: 20px 20px 20px 40px;
+}
+
+.message-input {
+    min-height: 25px;
+    padding: 2px;
+    margin: 5px;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+}
+
+.follow img {
+    padding: 10px;
+    margin-top: 50px;
+    width: 350px;
+    /* border-radius: 20px;
+    box-shadow: 5px 7px 40px rgb(145, 22, 22); */
+}
+
+.social-media {
+    text-decoration: none;
+    border-radius: 50px;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+}
+
+.social-media:hover {
+    background-color: red;
+}
+
+
+/*  */
+
+.footer {
+    background-color: #0b0d17;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Pushster', cursive;
+}
+
+.color {
+    color: #ff5959;
+}
+
+.footer-para {
+    font-family: 'Courier New', Courier, monospace;
+}
